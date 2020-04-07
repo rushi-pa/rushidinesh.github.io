@@ -1,0 +1,126 @@
+/*I declare that my assignment is wholly my own work in accordance with Seneca
+Academic Policy. No part of this assignment has been copied manually or
+electronically from any other source (including web sites) except for the
+information supplied by the WEB222 instructors and / or made available in this
+assignment for my use.
+I also declare that no part of this assignment has been distributed to other
+students.
+Name: Rushi Patel
+Dated:3/21/2020
+********************************************************************/
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+.top{
+  width: auto;
+  height: 170px;
+
+}
+.top img{
+  float: left;
+  height: 40;
+  width: 60;
+  padding-top: 0px;
+  overflow: hidden;
+
+}
+
+.top h1{
+  width: auto;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: auto;
+  color: Pink;
+  margin-top: 50px;
+  float: left;
+
+}
+
+.slogan {
+  text-align: center;
+  font-size: 20px;
+  width: inherit;
+  height:inherit;
+
+}
+
+body{
+    background-color: Lightblue;
+    color: green;
+
+    background-size: 100% 100%;
+}
+h1{
+    background-color: black;
+}
+
+img{
+    max-width: 200px;
+    opacity: 1;
+    max-height: 200px;
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: black;
+  }
+
+  .price {
+    color: grey;
+    font-size: 20px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .card button:hover {
+    opacity: 0.6;
+  }
+  .column {
+    float: left;
+    width: 33.0%;
+    padding: 2px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .copyright-container {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: pink;
+    text-align: center;
+    opacity: 0.85;
+  }
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+  }
