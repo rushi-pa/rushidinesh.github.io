@@ -16,6 +16,13 @@ Dated:3/21/2020
 .top{
   width: auto;
   height: 170px;
+  margin-left: 45%;
+
+}
+.top-slogan{
+  width: auto;
+  height: 170px;
+}
 
 }
 .top img{
